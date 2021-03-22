@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean Chicks OKC, Llc.</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <style>
+      /* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@462&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+:root {
+  --Sniglet-font: 'Sniglet', cursive;
+  --Rubik: 'Rubik', cursive;
+  --Patua: 'Patua One', cursive;
+  --Lobster: 'Lobster', cursive;
+  --Dancing: 'Dancing', cursive;
+  --light-black: #3b3838af;
+  --light-gray: rgba(255, 255, 255, 0.9);
+  --light-font: #bff5f4;
+  --dark-font: #904e95;
+  --bggradient: linear-gradient(
+    to bottom,
+    #8529a1ce, 
+    #b299e07e
+    );
+
+  --bggradient2: linear-gradient(
+    to bottom left, 
+    #ef32d9,
+    #89fffd
+  );
+
+  --bggradient2-reverse: linear-gradient(
+    to top left, 
+    #ef32d9,
+    rgb(82, 224, 222)
+
+  );
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main{
+  background: var(--bggradient2);
+}
+
+hr{
+  font-weight: bolder;
+  width: 100%;
+  color: aquamarine;
+  text-decoration: none;
+}
+
+header,
+section {
+  overflow: hidden;
+}
+
+/* HEADER */
+
+header a {
+  font-size: 0.9em;
+}
+
+header {
+  font-family: var(--Dancing);
+  color: var(--light-font);
+  background: var(--bggradient2);
+}
+
+/* NAVIGATION */
+
+header .nav-item:last-child {
+  padding-right: 3rem;
+}
+
+header .nav-item {
+  padding: 0rem 1.5rem;
+}
+
+header .nav-brand {
+  padding-left: 1.5rem;
+}
+
+header .nav-link:hover {
+  color: aliceblue;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 200%;
+  height: 200%;
+}
+
+header .container-fluid .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container-fluid .col-md-7 h1 {
+  font-size: 8vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+header .container-fluid .col-md-7 button {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.button .new{
+  align-content: center;
+  margin-left: 10vmin;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 15vmin;
+  font-family: var(--Rubik);
+  color: var(--dark-font);
+}
+
+/* SECTION */
+
+/* SECTION-1 */
+
+.section-1 {
+  padding: 10vmin 10vmin;
+  font-family: var(--Dancing);
+  font-size: 20px;
+  color: var(--dark-font);
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+img{
+  box-shadow: var(--light-gray);
+}
+
+/* SECTION-2 */
+
+/* MOST POPULAR SERVICES */
+
+.section-2{
+  width: 100%;
+  padding: 10vmin 0vmin;
+  font-family: var(--Dancing);
+  color: var(--light-font);
+  background: var(--bggradient2);
+}
+
+.card{
+  background: var(--bggradient2-reverse);
+}
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url(/img/two_clean_chicks_logo.jpg);
+  background-position: -20.5rem --19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .content {
+  background: var(--bggradient2-reverse);
+  width: 100%;
+  height: 100%;
+  padding-top: 9vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: #fff;
+}
+
+.cover .content > p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(216, 63, 63, 0.349);
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h2 {
+  font-size: 4rem;
+  color: tomato;
+}
+
+.numbers .rect p {
+  font-family: var(--Patua);
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin;
+}
+
+.cards div {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: var(--bggradient);
+  padding: 1.8rem 2.5rem;
+  font-size: 2.4vmin;
+  margin-bottom: 2em;
+}
+
+.cards .card-text {
+  padding: 1.5rem 3rem;
+  color: var(--light-black);
+}
+
+.card-body .pricing {
+  border: none;
+  background: var(--bggradient);
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+.card-body .pricing > h1 {
+  min-height: 200px;
+  font-size: 5vmin;
+  padding: 1em 0.5em;
+  border: none;
+}
+
+/* SECTION-3 */
+
+/* PURCHASE */
+
+.section-3 {
+  height: inherit;
+  margin-top: 15vmin;
+  background: var(--bggradient2);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0em 0.5em 0em;
+  color: var(--light-black);
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0.4em;
+  padding-bottom: 2em;
+  color: var(--light-black);
+  font-size: 3vmin;
+}
+
+.section-3 .desktop {
+  background: var(--bggradient2-reverse);
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .desktop h3 {
+  font-size: 6vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 4vmin;
+}
+
+/* SECTION-4 */
+
+/* MEET THE STAFF */
+
+.section-4 .container-fluid h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  background: linear-gradient(to bottom left, #3a3634, #fffedf);
+  width: 100%;
+  margin-top: 1vmin;
+  color: black;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding: 3rem;
+}
+
+.section-4 .card .card-body a {
+  align-content: center;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+/*  FOOTER */
+
+/* ABOUT US SECTION */
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p span a {
+  text-decoration: none;
+  color: #dd2476;
+}
+
+/* NEWSLETTER SECTION */
+
+footer input {
+  border: none i !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient2-reverse);
+  border: none !important;
+}
+
+/* FOLLOW SECTION */
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0em 0.5em;
+}
+
+.em{
+  color: #dd2476;
+  padding-bottom: 15vmin;
+}
+
+.call-us{
+  padding-bottom: 3vmin;
+}
+
+/* BIBLE VERSE GENERATOR */
+
+.message{
+  text-align: center;
+  font-family: var(--Sniglet-font);
+  font-size: 5vmin;
+}
+
+.quote{
+  font-size: 3.5vmin;
+}
+
+.title{
+  font-family: var(--Dancing);
+  color: #8d2681;
+}
+
+.verse-text{
+  background: var(--bggradient2-reverse);
+  font-family: var(--Sniglet-font);
+}
+
+/* Style inputs with type="text", 
+  select elements and textareas */
+
+label{
+  text-align: left;
+  padding-left: 0.25rem;
+}
+
+input[type=text]{
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px var(--bggradient2);
+}  
+
+input[type=text], select, textarea {
+  width: 100%;  /* Full width */
+  padding: 0.5rem;  /* Some padding */ 
+  border: 0;
+  border-bottom: 1px solid rgb(184, 164, 164);   /* Gray border */
+  border-radius: 20px;   /* Rounded borders */
+  box-sizing: border-box;   /* Make sure that padding and width stays in place */
+  margin-top: 6px;  /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=email]{
+width: 100%;  /* Full width */
+  padding: 0.5rem;  /* Some padding */ 
+  border: 0;
+  border-bottom: 1px solid rgb(184, 164, 164);   /* Gray border */
+  border-radius: 20px;   /* Rounded borders */
+  box-sizing: border-box;   /* Make sure that padding and width stays in place */
+  margin-top: 6px;  /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+select{
+  color: var(--light-black);
+  border: none;
+  border-bottom: 1px solid rgb(184, 164, 164);
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.input{
+  background: var(--bggradient2-reverse);
+}
+
+.error{
+  color: red;
+}
+
+
+/*  media querries */
+@media only screen and(min-width: 576px){
+  .header .col-md-7 img{
+    width: 200%;
+    height: 200%;
+  }
+
+  .footer .credit{
+    display: inline;
+    float: none;
+    text-align: center;
+  }
+}
+
+
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation">
+        <div class="container-fluid">
+          <!-- ICON AND BRAND -->
+          <a
+            href="https://www.facebook.com/Clean-Chicks-Okc-LLC-100170255287314"
+            class="navbar-brand"
+          >
+            Clean Chicks OKC, Llc.
+          </a>
+
+          <!-- HAMBURGER MENU -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- align nav menu to the right -->
+            <div class="mr-auto"></div>
+
+            <!-- NAVIGATION MENU -->
+            <ul class="navbar-nav mb-2 mb-lg-0 pb-lg-0">
+              <li class="nav-item">
+                <a
+                  href="/index.html"
+                  class="nav-link active" 
+                  aria-current="true"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="/services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact.html" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-1 header">
+        <!-- MEET THE OWNER -->
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <!-- <h6>AUTHOR: Anthony L. Middlebrooks</h6> -->
+              <h1>Owner/Operator: Renee Madding</h1>
+              <p>
+                Hello all. We are Clean Chicks OKC, Llc. We have been around for
+                X years. We service the greater Oklahoma City area. We are a
+                full service, family friendly cleaning solutions company that
+                speciallizes in residential cleaning, but we will clean
+                businesses also. Some of our other services are make-ready
+                cleaning, deep clesaning, routine cleaning, moving in clean-up,
+                noving out clean-up, post cunstruction clean-up, and ask us
+                about our Covid-19 sterillization.
+              </p>
+              <a
+                role="button"
+                class="btn btn-dark mb-5 mt-sm-5 px-5 py-2"
+                href="https://www.facebook.com/Clean-Chicks-Okc-LLC-100170255287314"
+              >
+                Get a Quote
+              </a>
+            </div>
+            <div
+              class="col-md-5 col-sm-12"
+              width="fa-rotate-2700%"
+              height="200%"
+            >
+              <img src="/images/clean_chicks_logo_purple.png" width="100%" />
+            </div>
+          </div>
+        </div>
+
+        <hr class="pt-5 mt-5" />
+        <hr class="mb-5 pb-5" />
+
+        <!-- BIBLE VERSE GENERATOR -->
+      <div class = "verse-text container-fluid">  
+        <h1 class="title text-center">Random Bible Verse</h1>
+        <hr/>
+        <div class = "message"><p> <i class="quote fa fa-quote-left fa-fw" aria-hidden="true"></i>God's promises are true everyday. These are some of my favorite Bible verses. I hope you can turn to these in faith and trust in God's promises no matter what situation you are facing today.<i class="fa fa-quote-right fa-fw quote" aria-hidden="true"></i></div>
+          <br/>
+          <button class = "text-center btn btn btn-dark button">New Verse</button>
+        <div class = "text-center gen-verse verse-display">
+          <span class = "verse"></span>
+          <br/></br>
+          <span class = "verse-location"></span>
+        </div>
+        </div>
+
+      </section>
+
+      
+
+      <!-- SECTION-1 -->
+
+      <!-- Download mobile app section
+      <section class="section-3 container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Download Our App for All Platforms</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestiae aliquid libero repudiandae provident beatae ullam autem
+              enim dolor quis, voluptas delectus numquam esse eveniet
+              temporibus?
+            </p>
+          </div>
+        </div>
+        <div class="platform row">
+          Desktop app icon 
+          <div class="col-md-6 col-sm-12 text-right">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                <div class="text text-left">
+                  <h3 class="pt-1 m-0">Desktop</h3>
+                  <p class="p-0 m-0">
+                    On Website
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          Mobile app icon: link to the "Google Play Store" 
+          <div class="col-md-6 col-sm-12 text-left">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-mobile fa-3x py-2 pl-3"></i>
+                <div class="text text-left">
+                  <h3 class="pt-1 m-0">On Mobile</h3>
+                  <p class="p-0 m-0">
+                    On Play Store
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      End Download mobile app section -->
+
+      
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer container-fluid credit text-center">
+        <div class="row">
+          <!-- Location info and copyright information section -->
+          <div class="col-md-5 m-3 p-0">
+            <!-- Location info -->
+            <h1 class="text-muted">Contact Us</h1>
+            <h5 class="text-muted call-us">
+              for your
+              <em class="em">FREE</em>
+              estimate, right now
+            </h5>
+            <h6 class="text-muted">Hours</h6>
+            <h6 class="text-muted">Tues: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-muted py-0">Wed: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-capitalize text-muted py-0">Thurs: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-capitalize text-muted py-0">Fri: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-capitalize text-muted py-0">Sat: 9 A.M. - 5 P.M.</p>
+          </div>
+
+          <!-- Newsletter section -->
+          <!--
+          <div class="col-md-5">
+            <h4 class="text-light">Newsletter</h4>
+            <p class="text-muted">Stay Updated</p>
+            <form class="form-inline">
+              <div class="col pl-2">
+                <div class="input-group pr-5">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-white"
+                    placeholder="Email"
+                  />
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          -->
+
+          <!-- Follow us section -->
+          <div class="mr-auto"></div>
+          <div class="col-md-5 m-3 p-0 text-center text-muted">
+            <h4>Follow Us</h4>
+            <p>Let us be social</p>
+            <div class="column">
+              <i class="fab fa-facebook-f"><a href="https://www.facebook.com/Clean-Chicks-Okc-LLC-100170255287314"></a></i>
+              <i class="fab fa-yelp"><a href="https://www.yelp.com/biz/clean-chicks-okc-oklahoma-city-2?osq=clean+chicks"></a></i>
+            </div>
+
+            <p class="pt-5">Phone:  (405) 233-9008</p>
+              <p>Email:  
+                <a style="color: #dd2476;" href="mailto: cleanchicksokcllc@gmail.com?subject = Feedback&body = Message">cleanchicksokcllc@gmail.com</a>
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright information -->
+      <div class="footer container-fluid text-center credit">
+        <p class="pt-5 text-muted">
+          Copyright &copy; All rights reserved | This Website was made by
+          <span>
+            <a href="https://www.facebook.com/Antmidd1977/">Anthony L. Middlebrooks</a>
+          </span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="js/main.js" type="javascript"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script> 
+  </body>
+</html>

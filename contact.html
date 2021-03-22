@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renee's Website Home</title>
+
+
+    
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation">
+        <div class="container-fluid">
+          <!-- ICON AND BRAND -->
+          <a
+            href="https://www.facebook.com/Clean-Chicks-Okc-LLC-100170255287314"
+            class="navbar-brand"
+          >
+            Clean Chicks OKC, Llc.
+          </a>
+
+          <!-- HAMBURGER MENU -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- align nav menu to the right -->
+            <div class="mr-auto"></div>
+
+            <!-- NAVIGATION MENU -->
+            <ul class="navbar-nav mb-2 mb-lg-0 pb-lg-0">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="/services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact.html" 
+                class="nav-link active" 
+                aria-current="true"
+                >
+                Contact Us
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-1 header">
+        
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="container-fluid col-md-7 col-sm-12 mb-5">
+              
+              <img src="/images/clean_chicks_logo_purple.png" width="100%" />
+
+            </div>
+            <div
+              class="col-md-5 col-sm-12 text-left"
+              width="fa-rotate-2700%"
+              height="100%"
+            >
+            <!-- CONTACT FORM -->
+            <p><span class="error">*  required field</span></p>
+            <form method="POST" class="border-0 form" action="/php/contact.php" role="form">
+
+            <div class="form-group">
+              <label for="fname">First Name</label><span class="error">*</span>
+              <input class="input form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label><span class="error">*</span>
+              <input class="input form-control" type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label><span class="error">*</span>
+              <input class="input form-control" type="text" id="email" name="email" placeholder="Your email..">
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Message</label><span class="error">*</span>
+              <textarea class="input form-control" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+              <div class="form-group">
+                <input class="btn btn-dark" type="submit" value="Submit">
+              </div>
+          
+            </form>
+            </div>
+          </div>
+        </div>
+
+        <hr class="pt-5 mt-5" />
+        <hr class="mb-5 pb-5" />
+
+      </section>
+
+      
+
+      <!-- SECTION-1 -->
+
+      <!-- Download mobile app section
+      <section class="section-3 container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Download Our App for All Platforms</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestiae aliquid libero repudiandae provident beatae ullam autem
+              enim dolor quis, voluptas delectus numquam esse eveniet
+              temporibus?
+            </p>
+          </div>
+        </div>
+        <div class="platform row">
+          Desktop app icon 
+          <div class="col-md-6 col-sm-12 text-right">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                <div class="text text-left">
+                  <h3 class="pt-1 m-0">Desktop</h3>
+                  <p class="p-0 m-0">
+                    On Website
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          Mobile app icon: link to the "Google Play Store" 
+          <div class="col-md-6 col-sm-12 text-left">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-mobile fa-3x py-2 pl-3"></i>
+                <div class="text text-left">
+                  <h3 class="pt-1 m-0">On Mobile</h3>
+                  <p class="p-0 m-0">
+                    On Play Store
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      End Download mobile app section -->
+
+      
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer container-fluid credit text-center">
+        <div class="row">
+          <!-- Location info and copyright information section -->
+          <div class="col-md-5 m-3 p-0">
+            <!-- Location info -->
+            <h1 class="text-muted">Contact Us</h1>
+            <h5 class="text-muted call-us">
+              for your
+              <em class="em">FREE</em>
+              estimate, right now
+            </h5>
+            <h6 class="text-muted">Hours</h6>
+            <h6 class="text-muted">Tues: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-muted py-0">Wed: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-capitalize text-muted py-0">Thurs: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-capitalize text-muted py-0">Fri: 8 A.M. - 8 P.M.</p>
+            <h6 class="text-capitalize text-muted py-0">Sat: 9 A.M. - 5 P.M.</p>
+          </div>
+
+          <!-- Newsletter section -->
+          <!--
+          <div class="col-md-5">
+            <h4 class="text-light">Newsletter</h4>
+            <p class="text-muted">Stay Updated</p>
+            <form class="form-inline">
+              <div class="col pl-2">
+                <div class="input-group pr-5">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-white"
+                    placeholder="Email"
+                  />
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          -->
+
+          <!-- Follow us section -->
+          <div class="mr-auto"></div>
+          <div class="col-md-5 m-3 p-0 text-center text-muted">
+            <h4>Follow Us</h4>
+            <p>Let us be social</p>
+            <div class="column">
+              <i class="fab fa-facebook-f"><a href="https://www.facebook.com/Clean-Chicks-Okc-LLC-100170255287314"></a></i>
+              <i class="fab fa-yelp"><a href="https://www.yelp.com/biz/clean-chicks-okc-oklahoma-city-2?osq=clean+chicks"></a></i>
+            </div>
+
+            <p class="pt-5">Phone:  (405) 233-9008</p>
+              <p>Email:  
+                <a style="color: #dd2476;" href="mailto: cleanchicksokcllc@gmail.com?subject = Feedback&body = Message">cleanchicksokcllc@gmail.com</a>
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright information -->
+      <div class="footer container-fluid text-center credit">
+        <p class="pt-5 text-muted">
+          Copyright &copy; All rights reserved | This Website was made by
+          <span>
+            <a href="https://www.facebook.com/Antmidd1977/">Anthony L. Middlebrooks</a>
+          </span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/main.js" type="javascript"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
